@@ -1,4 +1,5 @@
-//Start with current date
+//Start with local weather and current date
+navigator.geolocation.getCurrentPosition(handlePosition);
 getCurFullDate();
 
 // Display the date
